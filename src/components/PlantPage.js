@@ -12,7 +12,6 @@ function PlantPage() {
     fetch("http://localhost:6001/plants")
     .then((res) => res.json())
     .then((plants) => {
-      console.log(plants);
       setPlants(plants);
     });
   }, []);

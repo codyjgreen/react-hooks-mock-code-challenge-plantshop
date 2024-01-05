@@ -13,7 +13,6 @@ function NewPlantForm({ onAddPlant }) {
 
   function handleSubmit(e) {
     e.preventDefault();
-    // console.log({ name, image, price });
     let newPlant = { name, image, price };
 
     fetch("http://localhost:6001/plants", {
@@ -25,7 +24,6 @@ function NewPlantForm({ onAddPlant }) {
     })
       .then((res) => res.json())
       .then((plant) => {
-        // console.log(plant);
         onAddPlant(plant);
       });
   }
