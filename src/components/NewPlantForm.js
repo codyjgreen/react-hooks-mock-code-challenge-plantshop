@@ -25,7 +25,7 @@ function NewPlantForm({ onAddPlant }) {
     })
       .then((res) => res.json())
       .then((plant) => {
-        console.log(plant);
+        // console.log(plant);
         onAddPlant(plant);
       });
   }

@@ -119,6 +119,36 @@
       "image": "new_plant_image_url",
       "price": "10",
       "id": 20
+    },
+    {
+      "name": "New Plant",
+      "image": "new_plant_image_url",
+      "price": "10",
+      "id": 21
+    },
+    {
+      "name": "New Plant",
+      "image": "new_plant_image_url",
+      "price": "10",
+      "id": 22
+    },
+    {
+      "name": "New Plant",
+      "image": "new_plant_image_url",
+      "price": "10",
+      "id": 23
+    },
+    {
+      "name": "New Plant",
+      "image": "new_plant_image_url",
+      "price": "10",
+      "id": 24
+    },
+    {
+      "name": "New Plant",
+      "image": "new_plant_image_url",
+      "price": "10",
+      "id": 25
     }
   ]
 }
